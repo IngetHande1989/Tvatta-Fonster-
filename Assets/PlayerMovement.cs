@@ -11,10 +11,24 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     float sidespeed = 2;
     [SerializeField]
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "DirtyWindow")
+        {
+            print("FUCK U MAN");
+            
+
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        print("why u leave :(");
+    }
+
 
     void Update()
-    {
-        if (Input.GetKey(KeyCode.W)) //när knappen W är nere
+        {
+       if (Input.GetKey(KeyCode.W)) //när knappen W är nere
         {
             transform.position += new Vector3(0, upspeed, 0) * Time.deltaTime; //ändras positionen till riktning uppåt i detta fall
         }
@@ -30,5 +44,7 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position += new Vector3(sidespeed, 0, 0) * Time.deltaTime;
         }
+        
+
     }
 }
