@@ -11,21 +11,23 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     float sidespeed = 2;
     [SerializeField]
+    Transform UI;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "DirtyWindow")
         {
-            print("FUCK U MAN");
-            
-
+            UI.gameObject.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        print("why u leave :(");
+        UI.gameObject.SetActive(false);
     }
 
-
+    private void Start()
+    {
+        UI.gameObject.SetActive(false);
+    }
     void Update()
         {
        if (Input.GetKey(KeyCode.W)) //när knappen W är nere
