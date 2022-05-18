@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 756046821}
   m_Layer: 0
   m_Name: DirtyWindow
-  m_TagString: Untagged
+  m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
