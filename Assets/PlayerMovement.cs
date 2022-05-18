@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     float sidespeed = 2;
     [SerializeField]
     Transform UI;
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "dirtywindow")
         {
