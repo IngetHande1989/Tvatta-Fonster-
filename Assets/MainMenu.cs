@@ -8,12 +8,13 @@ public class MainMenu : MonoBehaviour
 {
     public VideoPlayer vp;
     public GameObject mainmenu;
+    public GameObject optionsscreen;
     // Start is called before the first frame update
     void Start()
     {
         
     }
-    void extramenu()
+    void optionsmenu()
     {
         mainmenu.SetActive(false);
 
