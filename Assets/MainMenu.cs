@@ -9,21 +9,24 @@ public class MainMenu : MonoBehaviour
     public VideoPlayer vp;
     public GameObject mainmenu;
     public GameObject optionsscreen;
+    [SerializeField]
+    AudioSource audioData;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioData = GetComponent<AudioSource>();
+        audioData.Play(0);
+        Debug.Log("started");
     }
-    void optionsmenu()
+    public void Quitgame()
     {
-        mainmenu.SetActive(false);
-
+        Application.Quit();
     }
     public void playgame()
     {
         print("tja");
-        vp.Play();
-        System.Threading.Thread.Sleep(3000);
+        
+       
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //loada nästa scen i builden
 
 
@@ -33,4 +36,13 @@ public class MainMenu : MonoBehaviour
     {
         
     }
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
+    public void playClip()
+    {
+        audioSource.clip = audioClip;
+        audioSource.Play();
+    }
+
 }
