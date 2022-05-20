@@ -9,10 +9,14 @@ public class MainMenu : MonoBehaviour
     public VideoPlayer vp;
     public GameObject mainmenu;
     public GameObject optionsscreen;
+    [SerializeField]
+    AudioSource audioData;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioData = GetComponent<AudioSource>();
+        audioData.Play(0);
+        Debug.Log("started");
     }
     public void Quitgame()
     {
