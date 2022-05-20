@@ -14,10 +14,9 @@ public class MainMenu : MonoBehaviour
     {
         
     }
-    void optionsmenu()
+    public void Quitgame()
     {
-        mainmenu.SetActive(false);
-
+        Application.Quit();
     }
     public void playgame()
     {
