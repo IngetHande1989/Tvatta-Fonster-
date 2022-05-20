@@ -20,6 +20,7 @@ public class MainMenu : MonoBehaviour
     }
     public void Quitgame()
     {
+        Debug.Log("Player left the game.");
         Application.Quit();
     }
     public void playgame()
