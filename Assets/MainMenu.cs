@@ -25,8 +25,8 @@ public class MainMenu : MonoBehaviour
     public void playgame()
     {
         print("tja");
-        vp.Play();
-        System.Threading.Thread.Sleep(3000);
+        
+       
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //loada nästa scen i builden
 
 
@@ -36,4 +36,13 @@ public class MainMenu : MonoBehaviour
     {
         
     }
+    public AudioSource audioSource;
+    public AudioClip audioClip;
+
+    public void playClip()
+    {
+        audioSource.clip = audioClip;
+        audioSource.Play();
+    }
+
 }
