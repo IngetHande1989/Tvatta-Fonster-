@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 11337200}
   - component: {fileID: 11337199}
   m_Layer: 0
-  m_Name: Square (26)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,7 +154,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.000019863248, y: -0.0051383916}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -165,7 +165,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.276068, y: 0.05260591}
   m_EdgeRadius: 0
 --- !u!212 &11337200
 SpriteRenderer:
@@ -226,7 +226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11337198}
   m_LocalRotation: {x: -0.008900413, y: 0.011256716, z: 0.00010019975, w: 0.999897}
-  m_LocalPosition: {x: -0.96000004, y: 1.1600001, z: 0}
+  m_LocalPosition: {x: 0.86, y: -1.99, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 178423758}
   - component: {fileID: 178423757}
   m_Layer: 0
-  m_Name: Square (17)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,7 +274,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.28742516, y: 0.07652637}
   m_EdgeRadius: 0
 --- !u!212 &178423758
 SpriteRenderer:
@@ -335,7 +335,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 178423756}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.65999997, y: -0.9699999, z: 0}
+  m_LocalPosition: {x: -1.07, y: -3.03, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -353,7 +353,7 @@ GameObject:
   - component: {fileID: 246324737}
   - component: {fileID: 246324736}
   m_Layer: 0
-  m_Name: Square (15)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,7 +372,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.027813181, y: -0.015250903}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -383,7 +383,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.19830987, y: 0.0842633}
   m_EdgeRadius: 0
 --- !u!212 &246324737
 SpriteRenderer:
@@ -444,7 +444,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246324735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.32999992, y: -1.16, z: 0}
+  m_LocalPosition: {x: -1.37, y: -1.44, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 247667799}
   - component: {fileID: 247667798}
   m_Layer: 0
-  m_Name: Square (12)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -481,7 +481,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0048455596, y: -0.010470754}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -492,7 +492,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.2889529, y: 0.09353413}
   m_EdgeRadius: 0
 --- !u!212 &247667799
 SpriteRenderer:
@@ -553,7 +553,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247667797}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.82000005, y: -2.09, z: 0}
+  m_LocalPosition: {x: 0.23, y: -3.46, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -636,7 +636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248037863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.41000006, y: -2.65, z: 0}
+  m_LocalPosition: {x: 0.42, y: -2.57, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -655,7 +655,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0027834028, y: -0.008548524}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -666,7 +666,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.2261883, y: 0.08701352}
   m_EdgeRadius: 0
 --- !u!1 &280090317
 GameObject:
@@ -1022,7 +1022,7 @@ GameObject:
   - component: {fileID: 866715746}
   - component: {fileID: 866715745}
   m_Layer: 0
-  m_Name: Square (18)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,7 +1041,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.008339483, y: -0.010260019}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1052,7 +1052,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.24843428, y: 0.07675167}
   m_EdgeRadius: 0
 --- !u!212 &866715746
 SpriteRenderer:
@@ -1113,7 +1113,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 866715744}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.97, y: 1.95, z: 0}
+  m_LocalPosition: {x: 0.72, y: 0.49, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1131,7 +1131,7 @@ GameObject:
   - component: {fileID: 955083666}
   - component: {fileID: 955083665}
   m_Layer: 0
-  m_Name: Square (25)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1150,7 +1150,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.033240367, y: -0.010473661}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1161,7 +1161,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.17640841, y: 0.09000224}
   m_EdgeRadius: 0
 --- !u!212 &955083666
 SpriteRenderer:
@@ -1222,7 +1222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955083664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.32999992, y: 1.1700001, z: 0}
+  m_LocalPosition: {x: -0.12, y: 1.62, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1240,7 +1240,7 @@ GameObject:
   - component: {fileID: 974346267}
   - component: {fileID: 974346266}
   m_Layer: 0
-  m_Name: Square (23)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1259,7 +1259,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.0082814265}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1270,7 +1270,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.24515778, y: 0.07387003}
   m_EdgeRadius: 0
 --- !u!212 &974346267
 SpriteRenderer:
@@ -1331,7 +1331,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974346265}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75000006, y: -0.45999992, z: 0}
+  m_LocalPosition: {x: 0.39, y: -0.83, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 984845527}
   - component: {fileID: 984845526}
   m_Layer: 0
-  m_Name: Square (21)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1368,7 +1368,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0027834997, y: 0.0033657812}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1379,7 +1379,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.29299212, y: 0.05613137}
   m_EdgeRadius: 0
 --- !u!212 &984845527
 SpriteRenderer:
@@ -1440,7 +1440,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984845525}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.30000007, y: 2.71, z: 0}
+  m_LocalPosition: {x: -1.39, y: 3.67, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1658,7 +1658,7 @@ GameObject:
   - component: {fileID: 1224078444}
   - component: {fileID: 1224078443}
   m_Layer: 0
-  m_Name: Square (24)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1677,7 +1677,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.008707717}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1688,7 +1688,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.29018414, y: 0.066178545}
   m_EdgeRadius: 0
 --- !u!212 &1224078444
 SpriteRenderer:
@@ -1749,7 +1749,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224078442}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.34999996, y: -0.06999993, z: 0}
+  m_LocalPosition: {x: -1.16, y: 0.85, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1767,7 +1767,7 @@ GameObject:
   - component: {fileID: 1390458462}
   - component: {fileID: 1390458461}
   m_Layer: 0
-  m_Name: Square (20)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1786,7 +1786,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.012287714}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1797,7 +1797,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.21179238, y: 0.08081406}
   m_EdgeRadius: 0
 --- !u!212 &1390458462
 SpriteRenderer:
@@ -1858,7 +1858,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390458460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1099999, y: 0.5200001, z: 0}
+  m_LocalPosition: {x: 1.52, y: 1.15, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2167,7 +2167,7 @@ GameObject:
   - component: {fileID: 1756301396}
   - component: {fileID: 1756301395}
   m_Layer: 0
-  m_Name: Square (19)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2186,7 +2186,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.013917729, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2197,7 +2197,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.27072364, y: 0.089203596}
   m_EdgeRadius: 0
 --- !u!212 &1756301396
 SpriteRenderer:
@@ -2258,7 +2258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1756301394}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.94000006, y: 0.23000002, z: 0}
+  m_LocalPosition: {x: 1.12, y: 2.28, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2458,7 +2458,7 @@ GameObject:
   - component: {fileID: 1973171896}
   - component: {fileID: 1973171895}
   m_Layer: 0
-  m_Name: Square (16)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2477,7 +2477,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.005567126, y: -0.010283247}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2488,7 +2488,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.28742522, y: 0.097321674}
   m_EdgeRadius: 0
 --- !u!212 &1973171896
 SpriteRenderer:
@@ -2549,7 +2549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1973171894}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.53999996, y: -2.01, z: 0}
+  m_LocalPosition: {x: -1.34, y: -0.15, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2567,7 +2567,7 @@ GameObject:
   - component: {fileID: 1997568575}
   - component: {fileID: 1997568574}
   m_Layer: 0
-  m_Name: Square (13)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2586,7 +2586,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.012139216, y: -0.013048405}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2597,7 +2597,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.24737373, y: 0.094065994}
   m_EdgeRadius: 0
 --- !u!212 &1997568575
 SpriteRenderer:
@@ -2658,7 +2658,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997568573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.64000005, y: -1.25, z: 0}
+  m_LocalPosition: {x: -1.6, y: 2, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2676,7 +2676,7 @@ GameObject:
   - component: {fileID: 2052470391}
   - component: {fileID: 2052470390}
   m_Layer: 0
-  m_Name: Square (14)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2695,7 +2695,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.002783507, y: -0.0034194402}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2706,7 +2706,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.28185803, y: 0.056238614}
   m_EdgeRadius: 0
 --- !u!212 &2052470391
 SpriteRenderer:
@@ -2767,7 +2767,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052470389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.74999994, y: -2.9199998, z: 0}
+  m_LocalPosition: {x: 1.06, y: 3.65, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2785,7 +2785,7 @@ GameObject:
   - component: {fileID: 2066364372}
   - component: {fileID: 2066364371}
   m_Layer: 0
-  m_Name: Square (22)
+  m_Name: Smuts
   m_TagString: dirtywindow
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2804,7 +2804,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.012526549, y: 0.008552972}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2815,7 +2815,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.26794255, y: 0.07332684}
   m_EdgeRadius: 0
 --- !u!212 &2066364372
 SpriteRenderer:
@@ -2876,7 +2876,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066364370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8299999, y: 1.98, z: 0}
+  m_LocalPosition: {x: -0.72, y: 3.03, z: 0}
   m_LocalScale: {x: 8.2, y: 13.35, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
