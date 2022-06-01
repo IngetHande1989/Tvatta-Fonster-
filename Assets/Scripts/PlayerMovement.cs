@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     KeyCode up, down, left, right, interact;
 
+    Transform collidedObject;
+
     public void OnTriggerStay2D(Collider2D collision)
     {
         windowCollision = true;
