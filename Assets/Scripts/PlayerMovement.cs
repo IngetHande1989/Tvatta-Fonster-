@@ -5,41 +5,30 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    bool windowCollision;
 
     [SerializeField]
     float upspeed, downspeed, sidespeed;
-
-    [SerializeField]
-    Transform UI;
 
     [SerializeField]
     KeyCode up, down, left, right, interact;
 
     public void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag == "dirtywindow")
-        {
-            UI.gameObject.SetActive(true);
-
-            if (Input.GetKeyDown(interact))
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            }
-        }
-       
+        windowCollision = true;
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
-        UI.gameObject.SetActive(false);
+        windowCollision = false;
     }
 
     private void Start()
     {
-        UI.gameObject.SetActive(false);
+
     }
     void Update()
-
-        {
+    {
         #region Movement
         if (Input.GetKey(up)) //när knappen W är nere
         {
@@ -62,5 +51,12 @@ public class PlayerMovement : MonoBehaviour
         }
         #endregion
 
+        if (windowCollision)
+        {
+            if (Input.GetKeyDown(interact))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
+        }
     }
 }
