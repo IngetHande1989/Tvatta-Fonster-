@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
     bool windowCollision;
 
     [SerializeField]
+    Transform player;
+
+    [SerializeField]
     float upspeed, downspeed, sidespeed;
 
     [SerializeField]
